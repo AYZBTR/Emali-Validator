@@ -28,20 +28,19 @@
 
     <main>
         <div class="container">
-            <h1>Enter your email to validate</h1>
+            <h1>Enter email address to validate:</h1>
             <form action="/submit" method="post">
                 <!-- Text input for Emails -->
-                
-                <input class="placeholder" placeholder="Enter the email to validate" type="text" id="username" name="username" required>
-                <br><br>
-            
-            
+                <input class="placeholder" placeholder="Enter the email to validate" type="text" id="username"
+                    name="username" required>
+                <br> <br>
+
                 <!-- Submit button -->
-                <input class="btn" type="submit" value="Submit"> 
-                
-              </form>
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
+
+            </form>
         </div>
-        <div  class="container">
+        <div class="container">
             <h2> Email Validation Results: </h2>
             <div id="resultcontainer">
 
