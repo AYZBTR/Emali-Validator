@@ -1,20 +1,3 @@
-let result = {
-    "tag": "",
-    "free": false,
-    "role": false,
-    "user": "hellothere",
-    "email": "hellothere@edu.xamk.di",
-    "score": 0.64,
-    "state": "undeliverable",
-    "domain": "edu.xamk.di",
-    "reason": "invalid_mx",
-    "mx_found": false,
-    "catch_all": null,
-    "disposable": false,
-    "smtp_check": false,
-    "did_you_mean": "",
-    "format_valid": true
-  }
 
 submitBtn.addEventListener("click", async (e)=>{
     e.preventDefault()
